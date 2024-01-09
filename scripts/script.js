@@ -13,5 +13,7 @@ total.innerText = `Total: ৳ ${totalPrice}`;
 
 button.addEventListener("click", () => {
   totalPrice += productPrice;
+
+  //   update ui
   total.innerText = `Total: ৳ ${totalPrice}`;
 });
